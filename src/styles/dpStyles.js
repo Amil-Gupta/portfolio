@@ -5,13 +5,14 @@ const useStyles = makeStyles({
         width: '100%',
         display: 'flex',
         margin: '3rem 1rem',
-        maxWidth: '90vw'
+        maxWidth: '90vw',
+        maxHeight: '50vh'
     },
     dp: {
-        height: '17rem',
+        height: 'auto',
         width: '17rem',
-        maxHeight: '100vh',
-        maxWidth: '100vh',
+        maxHeight: '50vh',
+        maxWidth: '40vw',
         borderRadius: '50%',
         margin: 'auto',
     }

@@ -1,0 +1,1 @@
+export const profile_pic = './profile_picture.jpg'

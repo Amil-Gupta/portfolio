@@ -1,6 +1,4 @@
-import { makeStyles } from "@mui/styles";
-
-const useStyles = makeStyles({
+const styles = {
     dpContainer: {
         width: '100%',
         display: 'flex',
@@ -11,11 +9,11 @@ const useStyles = makeStyles({
     dp: {
         height: 'auto',
         width: '17rem',
-        maxHeight: '50vh',
+        maxHeight: '40vw',
         maxWidth: '40vw',
         borderRadius: '50%',
         margin: 'auto',
     }
-})
+}
 
-export default useStyles;
+export default styles

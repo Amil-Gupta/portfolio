@@ -1,10 +1,8 @@
-import { makeStyles } from "@mui/styles";
-
-const useStyles = makeStyles({
+const styles ={
     info: {
         height: '50%',
         width: '100%'
     }
-})
+}
 
-export default useStyles;
+export default styles;

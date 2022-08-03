@@ -3,14 +3,12 @@ import dp from '../assets/profile_picture.jpg';
 import styles from '../styles/dpStyles';
 
 export default function ProfilePic(){
-    const classes = styles();
-
     return(
         <Box
-            className={classes.dpContainer}
+            sx = {{...styles.dpContainer}}
         >
             <Box
-            className={classes.dp}
+            sx = {{...styles.dp}}
             component = 'img'
             src = {dp}
             />

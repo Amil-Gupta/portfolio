@@ -10,7 +10,10 @@ export default function Info(){
         >
             <Grid container>
                 <Grid item xs={12} md={4}>
-                    <ProfilePic />ddd
+                    <ProfilePic />
+                    <div>
+                        ddd
+                    </div>
                 </Grid>
                 <Grid item xs={12} md={8}>
                     <About />

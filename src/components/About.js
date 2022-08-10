@@ -1,4 +1,5 @@
 import { Box, Card, Paper, Typography } from "@mui/material";
+import AboutTile from "./AboutTile";
 import styles from "../styles/aboutStyles";
 
 export default function About(){
@@ -17,31 +18,6 @@ export default function About(){
         }
     ]
 
-    const AboutTile = (props)=>(
-        <Box
-        sx={{...styles.row}}
-        >
-            <Card
-            sx={{...styles.rowName}}
-            >
-                <Typography
-                variant='button'
-                >
-                    {props.name}
-                </Typography>
-            </Card>
-            <Card
-            sx={{...styles.rowValue}}
-            >
-                <Typography
-                variant='string'
-                >
-                    {props.value}
-                </Typography>
-            </Card>
-        </Box>
-    )
-
     return(
         <Paper
         sx = {{...styles.about}}
@@ -49,7 +25,7 @@ export default function About(){
         >
             {
                 data.map((row)=>(
-                    <AboutTile key={row.key} name={row.key} value={row.value} />
+                    <AboutTile key={row.key} name={row.key} value={row.value} styles={styles} />
                 ))
             }
         </Paper>
